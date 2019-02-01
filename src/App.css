@@ -1,6 +1,5 @@
 .App {
   margin: 0% 5% 0% 5%;
-  text-align: center;
 }
 
 .TwirlyPig {
@@ -14,6 +13,7 @@
 
 .navWrapper {
   margin-bottom: 2%;
+  text-align: center;
 }
 
 .filterWrapper {
