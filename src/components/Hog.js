@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class Hog extends Component {
 
   state = {
-    hidden: true
+    hidden: false
   }
 
   render() {
@@ -16,9 +16,7 @@ class Hog extends Component {
           </div>
           <div className="content">
             <div className="header">{this.props.hog.name}</div>
-            {this.state.hidden
-              ? null
-              :
+            {this.state.hidden &&
               <div>
                 <div className="meta">{this.props.hog.specialty}</div>
                 <div className="description">
